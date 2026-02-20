@@ -51,8 +51,7 @@ Gosto de transformar ideias em soluções bem estruturadas, funcionais e escalá
 
 ## 📫 Contato
 
-- 💼 LinkedIn: [Seu LinkedIn]  
-- 📧 Email: [Seu Email]  
+- 📧 Email: pedroadr88@gmail.com
 
 <!--
 **yXablau/yXablau** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
