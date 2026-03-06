@@ -1,262 +1,159 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Pedro Henrique | Sobre Mim</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedro Henrique | Sobre Mim</title>
 
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
 
-<style>
+    <link rel="stylesheet" href="style.css">
 
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-font-family:'Poppins', sans-serif;
-}
-
-body{
-background:#0f172a;
-color:#e2e8f0;
-}
-
-header{
-height:100vh;
-display:flex;
-flex-direction:column;
-justify-content:center;
-align-items:center;
-text-align:center;
-background:linear-gradient(120deg,#020617,#0f172a,#020617);
-}
-
-header h1{
-font-size:3rem;
-background:linear-gradient(90deg,#38bdf8,#818cf8);
--webkit-background-clip:text;
-color:transparent;
-}
-
-header p{
-margin-top:10px;
-color:#94a3b8;
-font-size:1.2rem;
-}
-
-.scroll{
-margin-top:40px;
-font-size:14px;
-color:#38bdf8;
-animation:float 2s infinite;
-}
-
-@keyframes float{
-0%{transform:translateY(0)}
-50%{transform:translateY(10px)}
-100%{transform:translateY(0)}
-}
-
-.container{
-max-width:1100px;
-margin:auto;
-padding:60px 20px;
-}
-
-.section{
-margin-bottom:70px;
-}
-
-.section h2{
-font-size:2rem;
-margin-bottom:20px;
-border-left:4px solid #38bdf8;
-padding-left:10px;
-}
-
-.card{
-background:#1e293b;
-padding:25px;
-border-radius:12px;
-transition:0.3s;
-}
-
-.card:hover{
-transform:translateY(-5px);
-box-shadow:0 10px 25px rgba(0,0,0,0.4);
-}
-
-.grid{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
-gap:20px;
-}
-
-.interest{
-text-align:center;
-padding:20px;
-background:#1e293b;
-border-radius:12px;
-transition:0.3s;
-}
-
-.interest:hover{
-transform:scale(1.05);
-background:#334155;
-}
-
-.interest span{
-font-size:40px;
-display:block;
-margin-bottom:10px;
-}
-
-footer{
-text-align:center;
-padding:30px;
-background:#020617;
-color:#64748b;
-}
-
-</style>
 </head>
 
 <body>
 
-<header>
+    <header>
 
-<h1>Pedro Henrique</h1>
-<p>Estudante de Sistemas de Informação</p>
-<p>UNIFEBE • Brusque - SC</p>
+        <h1>Pedro Henrique</h1>
+        <p>Estudante de Sistemas de Informação</p>
+        <p>UNIFEBE • Brusque - SC</p>
 
-<div class="scroll">
-↓ role para conhecer
-</div>
+        <div class="scroll">
+            ↓ role para conhecer
+        </div>
 
-</header>
-
-
-<div class="container">
-
-<section class="section">
-
-<h2>Sobre mim</h2>
-
-<div class="card">
-<p>
-Meu nome é <b>Pedro Henrique Pereira de Oliveira</b>. 
-Nasci em Montes Claros, Minas Gerais, e atualmente moro em Brusque, Santa Catarina, 
-onde curso Sistemas de Informação na UNIFEBE.
-</p>
-
-<br>
-
-<p>
-Sou apaixonado por tecnologia e também por entretenimento. 
-Gosto muito de cinema, séries, livros e animes, além de ser fã de games — 
-desde os clássicos retrô até os lançamentos mais atuais.
-</p>
-
-</div>
-
-</section>
+    </header>
 
 
-<section class="section">
+    <div class="container">
 
-<h2>Interesses</h2>
+        <section class="section">
 
-<div class="grid">
+            <h2>Sobre mim</h2>
 
-<div class="interest">
-<span>🎬</span>
-Cinema
-</div>
+            <div class="card">
+                <p>
+                    Meu nome é <b>Pedro Henrique Pereira de Oliveira</b>.
+                    Nasci em Montes Claros, Minas Gerais, e atualmente moro em Brusque, Santa Catarina,
+                    onde curso Sistemas de Informação na UNIFEBE.
+                </p>
 
-<div class="interest">
-<span>📚</span>
-Livros
-</div>
+                <br>
 
-<div class="interest">
-<span>📺</span>
-Séries
-</div>
+                <p>
+                    Sou apaixonado por tecnologia e também por entretenimento.
+                    Gosto muito de cinema, séries, livros e animes, além de ser fã de games —
+                    desde os clássicos retrô até os lançamentos mais atuais.
+                </p>
 
-<div class="interest">
-<span>🎌</span>
-Animes
-</div>
+            </div>
 
-<div class="interest">
-<span>🎮</span>
-Games
-</div>
-
-</div>
-
-</section>
+        </section>
 
 
-<section class="section">
+        <section class="section">
 
-<h2>Favoritos</h2>
+            <h2>Interesses</h2>
 
-<div class="grid">
+            <div class="grid">
 
-<div class="card">
-<h3>Série favorita</h3>
-<p>Game of Thrones</p>
-</div>
+                <div class="interest">
+                    <span>🎬</span>
+                    Cinema
+                </div>
 
-<div class="card">
-<h3>Filme favorito</h3>
-<p>Clube da Luta</p>
-</div>
+                <div class="interest">
+                    <span>📚</span>
+                    Livros
+                </div>
 
-<div class="card">
-<h3>Estilo de jogos</h3>
-<p>Retrô e lançamentos modernos</p>
-</div>
+                <div class="interest">
+                    <span>📺</span>
+                    Séries
+                </div>
 
-</div>
+                <div class="interest">
+                    <span>🎌</span>
+                    Animes
+                </div>
 
-</section>
+                <div class="interest">
+                    <span>🎮</span>
+                    Games
+                </div>
 
-</div>
+            </div>
 
-<footer>
+        </section>
 
-<p>© 2026 • Pedro Henrique Pereira de Oliveira</p>
 
-</footer>
+        <section class="section">
 
-<script>
+            <h2>Favoritos</h2>
 
-const cards = document.querySelectorAll(".card")
+            <div class="grid">
 
-cards.forEach(card=>{
-card.addEventListener("mousemove",e=>{
+                <div class="card">
+                    <h3>Série favorita</h3>
+                    <p>Game of Thrones</p>
+                </div>
 
-const x = e.offsetX
-const y = e.offsetY
-const centerX = card.offsetWidth/2
-const centerY = card.offsetHeight/2
+                <div class="card">
+                    <h3>Game Retrô favorito</h3>
+                    <p>Super Mario World 2</p>
+                </div>
 
-const rotateX = (y-centerY)/20
-const rotateY = (centerX-x)/20
+                <div class="card">
+                    <h3>Game mod. Favorito</h3>
+                    <p>Dark souls 3</p>
+                </div>
 
-card.style.transform = `rotateX(${rotateX}deg) rotateY(${rotateY}deg)`
+                <div class="card">
+                    <h3>Filme favorito</h3>
+                    <p>Clube da Luta</p>
+                </div>
 
-})
+            </div>
 
-card.addEventListener("mouseleave",()=>{
-card.style.transform="rotateX(0) rotateY(0)"
-})
+        </section>
 
-})
+    </div>
 
-</script>
+    <footer>
+
+        <p>© 2026 • Pedro Henrique Pereira de Oliveira</p>
+
+    </footer>
+
+    <script>
+
+        const cards = document.querySelectorAll(".card")
+
+        cards.forEach(card => {
+            card.addEventListener("mousemove", e => {
+
+                const x = e.offsetX
+                const y = e.offsetY
+                const centerX = card.offsetWidth / 2
+                const centerY = card.offsetHeight / 2
+
+                const rotateX = (y - centerY) / 20
+                const rotateY = (centerX - x) / 20
+
+                card.style.transform = `rotateX(${rotateX}deg) rotateY(${rotateY}deg)`
+
+            })
+
+            card.addEventListener("mouseleave", () => {
+                card.style.transform = "rotateX(0) rotateY(0)"
+            })
+
+        })
+
+    </script>
 
 </body>
+
 </html>
