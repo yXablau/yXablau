@@ -106,3 +106,48 @@ padding:30px;
 background:#020617;
 color:#64748b;
 }
+
+.programming {
+    position: relative;
+    cursor: pointer;
+}
+
+/* caixa escondida */
+.popup {
+    position: absolute;
+    bottom: 110%;
+    left: 50%;
+    transform: translateX(-50%) scale(0.8);
+    
+    background: #020617;
+    border: 1px solid #38bdf8;
+    padding: 15px;
+    border-radius: 10px;
+    
+    width: 220px;
+    text-align: left;
+    
+    opacity: 0;
+    pointer-events: none;
+    
+    transition: all 0.3s ease;
+}
+
+/* seta */
+.popup::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    
+    border-width: 8px;
+    border-style: solid;
+    border-color: #020617 transparent transparent transparent;
+}
+
+/* animação ao passar o mouse */
+.programming:hover .popup {
+    opacity: 1;
+    transform: translateX(-50%) scale(1);
+}
